@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Portfolio: Jelle van Brummelen
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Smart Industry</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="connection.html">Connection</a></li>
+                    <li><a href="me.html">Me</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="project.html">Project</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 80px">
+        <!-- just to make scrolling effect possible -->
+        <h2 class="myH2">Portfolio Minor Smart Industry</h2>
+        <p class="myP">
+    </div>
+
+
+
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+    <!--Body homepage-->
+    <div class="bodycontainer">
+        
+        <!-- Profielfoto-->
+        <section id="bannerleft">      
+        <img src="images/Profielfoto.jpg" width="325">
+        </section>
+
+        <!--Tekst-->
+        <aside id="bannerright">
+            <p class="myT2">
+                Wie ben ik?
+            </p>
+            <p class="myT1">Mijn naam is Jelle van Brummelen. Vanaf september 2022 tot en met januari 2023 volgde ik de minor Smart
+              Industry aan de Hogeschool Arnhem Nijmegen.
+              <br>
+              Op deze website heb ik een portfolio bijgehouden. Hierin laat ik zien wat ik gedaan heb tijdens de minor en
+              wat ik heb geleerd.</p>
+  
+              <!-- Tweede paragraaf-->
+            <p class="myT2">
+  
+                  <br>
+                  In het kort:
+                  <list>
+                      <ul class="myT1">
+                          <li>20 jaar</li>
+                          <li>Werktuigbouwkunde aan Hogeschool Windesheim</li>
+                          <li>Fotografie, reizen, zeilen, mountainbiken en klussen aan auto's</li>
+                      </ul>
+                  </list>
+                  <p class="myT1">
+                  Op het moment studeer ik Werktuigbouwkunde aan Hogeschool Windesheim in Zwolle. Smart Industry is de
+                  tweede minor die ik volg.
+                  <br>
+                  <br>
+                  Mijn eerste minor was Applied Mechanics. Dit was een minor die veel te maken had met de koude werktuigbouw.
+                  Ten opzichte van de basis opleiding ging deze minor verder in op onderwerpen zoals: mechanica, dynamica
+                  en trillingsleer.
+                  <br>
+                  <br>
+                  Na de eerste minor heb ik stage gelopen. Tijdens deze stage heb onderzocht hoe wagentjes automatisch
+                  in een machine geladen konden worden door gebruik te maken van een AGV of AMR.
+              </p>
+        </aside>
+     </div>
+
+     <!--Witte onderrand-->
+     <div style="height: 80px">
+     </div>
+</body>

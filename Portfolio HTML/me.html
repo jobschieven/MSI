@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Portfolio: Jelle van Brummelen
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Navigation bar-->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Smart Industry</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="connection.html">Connection</a></li>
+                    <li><a href="me.html">Me</a></li>
+                    <li><a href="technology.html">Technology</a></li>
+                    <li><a href="project.html">Project</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 80px">
+        <!-- just to make scrolling effect possible -->
+        <h2 class="myH2">Smart Me</h2>
+        <p class="myP">
+    </div>
+
+
+
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+<!--Body me page-->
+    
+
+    <!--Kookworkshop-->
+    <section class="bodycontainer" id="page-sections">
+        
+        <!--Koptekst-->       
+         <div class="row">
+            <div class="column">
+                <p class="myT2">Kookworkshop</p><!--Titel--> 
+            </div>
+            <div class="column">
+            <br>
+                <p class="myT3">7 september</p><!--2e titel-->
+            </div>
+          </div>
+
+        <!--Tekst-->
+        <p class="myT1">
+            In het kader van "Smart Me" hebben we een kookworkshop gehad. Tijdens deze kookworkshop leerden we hoe lastig
+            het kon zijn om samen te werken en daarbij de juiste timing/planning te kiezen. 
+            <br>
+            <br>De workshop begon met een korte uitleg, daarna gingen we aan de slag. In het midden van keuken waren drie 
+            kisten geplaatst. Opgedeeld in teams van 4 à 5 man koos ieder team een kist. Met de ingedriënten die in de 
+            kisten zaten moest gekookt worden, genoeg om iedereen van een maaltijd te kunnen voorzien. Als eerste moest er
+            bepaald worden welke teams het voor-, hoofd- en nagerecht gingen verzorgen. Daarna moest er zowel binnen de teams
+            als tussen de teams onderling overlegd worden welke gerechten gemaakt gingen worden. Na het overleg werd een
+            tijdspad uitgestippeld en gingen de teams aan het werk. Na een paar uur hard werken, overleggen en discussiëren
+            hebben de teams aan tafel plaats kunnen nemen. Waar zij hebben kunnen genieten van de gerechten die zij zelf
+            hebben gemaakt:
+            <br>
+            
+            <div class="row">
+                <div class="column">
+                    <p class="myT1">Voorgerecht</p>
+                    <img src="images/Voorgerecht.jpg" alt="Snow" style="width:100%">
+                </div>
+                <div class="column">
+                    <p class="myT1">Hoofdgerecht</p>
+                    <img src="images/Keuken2.jpg" alt="Forest" style="width:100%">
+                </div>
+                <div class="column">
+                    <p class="myT1">Nagerecht</p>
+                    <img src="images/Nagerecht.jpg" alt="Mountains" style="width:100%">
+                </div>
+              </div>
+           
+            
+            <br>
+            <br>
+        </p>  
+    </section>
+
+   
+ <!--Witte onderrand-->
+     <div style="height: 80px">
+     </div>
+</body>
