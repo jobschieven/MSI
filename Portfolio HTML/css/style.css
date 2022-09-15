@@ -456,3 +456,14 @@ body {
     overflow:scroll;
     overflow-x:hidden;
 }
+
+.clock {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-48%) translateY(280%);
+    color: #ffffff50;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
