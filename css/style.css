@@ -415,7 +415,7 @@ body {
   
 .column {
     flex: 33.33%;
-    padding: 5px;
+    padding: 1%;
 }
   
 .titlecolumn {
@@ -446,9 +446,9 @@ body {
 }
 
 .tekstvakVSC {
-    width:500px;
+    width:100%;
     height:70px;
-    padding:5px;
+    padding:0 2%;
     border:1px solid #B8CADA;
     background-color:#ffffff;
     color:#000000;
