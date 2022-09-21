@@ -417,7 +417,22 @@ body {
     flex: 33.33%;
     padding: 1%;
 }
-  
+
+.column2 {
+    flex: 65%;
+    padding: 1%;
+}
+
+.column3 {
+    flex: 15%;
+    padding: 1%;
+}
+
+.column4 {
+    flex: 20%;
+    padding: 1%;
+}
+
 .titlecolumn {
     flex: 50%;
     padding: 5px;
