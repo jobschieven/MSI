@@ -468,3 +468,11 @@ body {
     letter-spacing: 7px;
 }
 
+.imagescale{
+    width:100%;
+    height: auto;
+}
+
+.imagefit{
+    object-fit: scale-down;
+}
