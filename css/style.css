@@ -373,7 +373,7 @@ body {
 #bannerleft{
 	float:left;
 	width:25%;
-	padding:0 30px;
+	padding:0 2%;
 	box-sizing: border-box;
 }
 
@@ -382,7 +382,7 @@ body {
 	width:75%;
 	background: #2ec4ff;
 	color:#fff;
-	padding:10px;
+	padding:0 2%;
 	box-sizing: border-box;
 }
 
@@ -390,7 +390,7 @@ body {
 	float:none;
 	width:90%;
     background: #2ec4ff25;
-	padding:0 30px;
+	padding:0 2%;
 	box-sizing: border-box;
     border-radius: 1em;
 }
@@ -398,14 +398,14 @@ body {
 #textleft{
 	float:left;
 	width:80%;
-	padding:0 30px;
+	padding:0%;
 	box-sizing: border-box;
 }
 
 #imageright{
 	float:right;
 	width:20%;
-	padding:10px;
+	padding:0%;
 	box-sizing: border-box;
 }
 
