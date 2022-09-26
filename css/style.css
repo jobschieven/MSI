@@ -371,6 +371,12 @@ body {
 	overflow:hidden;
 }
 
+.articleontainer{
+    width:100%;
+    margin:auto;
+    overflow:hidden:
+}
+
 #bannerleft{
 	float:left;
 	width:25%;
@@ -396,6 +402,14 @@ body {
     border-radius: 1em;
 }
 
+#articles{
+    float: none;
+    width: 100%;
+    background: none;
+    box-sizing: border-box;
+}
+
+
 #textleft{
 	float:left;
 	width:80%;
@@ -406,6 +420,20 @@ body {
 #imageright{
 	float:right;
 	width:20%;
+	padding:0%;
+	box-sizing: border-box;
+}
+
+#textleft60{
+	float:left;
+	width:60%;
+	padding:0%;
+	box-sizing: border-box;
+}
+
+#imageright40{
+	float:right;
+	width:40%;
 	padding:0%;
 	box-sizing: border-box;
 }
