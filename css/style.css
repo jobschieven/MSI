@@ -536,3 +536,7 @@ body {
   .btn:hover {
     background-color: rgb(74, 83, 176);
   }
+
+.afronding{
+    border: radius 0.5em;;
+}
