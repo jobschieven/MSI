@@ -35,47 +35,6 @@
         </div>
     </nav>
 
-    <!--Clock-->
-    <section class="home">
-        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-        <script>
-            function showTime(){
-    var date = new Date();
-    var h = date.getHours(); // 0 - 23
-    var m = date.getMinutes(); // 0 - 59
-    var s = date.getSeconds(); // 0 - 59
-    var session = "AM";
-    
-    if(h == 0){
-        h = 12;
-    }
-    
-    if(h > 12){
-        h = h - 12;
-        session = "PM";
-    }
-    
-    h = (h < 10) ? "0" + h : h;
-    m = (m < 10) ? "0" + m : m;
-    s = (s < 10) ? "0" + s : s;
-    
-    var time = h + ":" + m + ":" + s + " " + session;
-    document.getElementById("MyClockDisplay").innerText = time;
-    document.getElementById("MyClockDisplay").textContent = time;
-    
-    setTimeout(showTime, 1000);
-    
-}
-
-showTime();
-        </script>
-    </section>
-    <div style="height: 80px">
-        <!-- just to make scrolling effect possible -->
-        <h2 class="myH2">Portfolio Minor Smart Industry</h2>
-        <p class="myP">
-    </div>
-
 
 
 
@@ -94,6 +53,48 @@ showTime();
             }
         });
     </script>
+
+    <!--Clock-->
+    <section class="home">
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        <script>
+            function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "";
+    
+    if(h == 0){
+        h = 23;
+    }
+    
+    if(h > 23){
+        h = h - 23;
+        session = "";
+    }
+    
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+    
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+    
+    setTimeout(showTime, 1000);
+    
+}
+
+showTime();
+        </script>
+    </section>
+
+    <div style="height: 80px">
+        <!-- just to make scrolling effect possible -->
+        <h2 class="myH2">Portfolio Minor Smart Industry</h2>
+        <p class="myP">
+    </div>
 
 
     <!--Body homepage-->
@@ -150,7 +151,7 @@ showTime();
             <br>
             <br>
             <li><a href="beoordelingsformulier.html">Vul hier uw beoordeling in!</a></li>
-            <p text-align="right" class="myT3">BG image sizing test 17</p>
+            <p text-align="right" class="myT3">BG image sizing test 18</p>
         </ul>
      </div>
 
