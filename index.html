@@ -35,12 +35,32 @@
         </div>
     </nav>
 
+    <section class="home">
+    </section>
+    <div style="height: 80px">
+        <!-- just to make scrolling effect possible -->
+        <h2 class="myH2">Portfolio Minor Smart Industry</h2>
+        <p class="myP">
+    </div>
+
 
 
 
     <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
 
     
 
@@ -79,12 +99,6 @@
 showTime();
         </script>
     </section>
-
-    <div style="height: 80px">
-        <!-- just to make scrolling effect possible -->
-        <h2 class="myH2">Portfolio Minor Smart Industry</h2>
-        <p class="myP">
-    </div>
 
 
     <!--Body homepage-->
@@ -141,7 +155,7 @@ showTime();
             <br>
             <br>
             <li><a href="beoordelingsformulier.html">Vul hier uw beoordeling in! (pop-up maken?)</a></li>
-            <p text-align="right" class="myT3">BG image sizing test 20</p>
+            <p text-align="right" class="myT3">BG image sizing test 21</p>
         </ul>
      </div>
 
