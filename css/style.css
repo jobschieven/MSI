@@ -79,7 +79,7 @@ body {
     background-image: url(https://www.jadeglobal.com/sites/default/files/2020-11/industry-webinar-banner-min.jpg);
     background-position: center top;
 	background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%,auto;
 }
 
 .navTrigger {
