@@ -507,7 +507,7 @@ body {
     left: 50%;
     transform: translateX(-48%) translateY(280%);
     color: #ffffff50;
-    font-size: 60px;
+    font-size: 6rem;
     font-family: Orbitron;
     letter-spacing: 7px;
 }
@@ -520,3 +520,19 @@ body {
 .imagefit{
     object-fit: scale-down;
 }
+
+/* Style buttons */
+.btn {
+    background-color: rgb(13, 16, 49);
+    border: none;
+    color: white;
+    padding: 0.5%;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 0.5em;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
