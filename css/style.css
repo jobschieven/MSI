@@ -398,7 +398,7 @@ body {
 	width:90%;
     background: #2ec4ff25;
 	padding:0 2%;
-	box-sizing: border-box;
+	box-sizing: border-box;Thuis (Oude Binnenweg 48)
     border-radius: 1em;
 }
 
@@ -556,7 +556,7 @@ body {
     position: fixed;
     transform: translate(-50%,-50%);
     left: 50%;
-    top: 30%;
+    top: 35%;
     border-radius: 0.5em;
     font-family: "Poppins",sans-serif;
     display: none;
@@ -591,3 +591,7 @@ body {
     padding: 5px 0;
 }
 
+.transitions { 
+    opacity: 0;
+    transition: opacity .5s;
+ }
