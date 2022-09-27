@@ -525,7 +525,7 @@ body {
     background-color: rgb(13, 16, 49);
     border: none;
     color: white;
-    padding: 0.5%;
+    padding: 0.5% 1%;
     cursor: pointer;
     font-size: 2rem;
     border-radius: 0.5em;
@@ -539,3 +539,55 @@ body {
 .afronding{
     border: radius 0.5em;;
 }
+
+/*pop-up*/
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup{
+    background-color: #ffffff;
+    width: auto;
+    padding: 1% 1%;
+    position: fixed;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 18vw;
+    border-radius: 0.5em;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+    
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.pop-up-style{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: rgb(13, 16, 49);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
