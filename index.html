@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <title>
         Portfolio: Jelle van Brummelen
@@ -79,8 +79,9 @@
 showTime();
         </script>
     </section>
-    <div style="height: 80px">
+    <div style="height: auto">
         <!-- just to make scrolling effect possible -->
+        <br>
         <h2 class="myH2">Portfolio Minor Smart Industry</h2>
         <p class="myP">
     </div>
@@ -102,6 +103,17 @@ showTime();
                 $('.nav').removeClass('affix');
             }
         });
+    </script>
+
+    <script>
+    $('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn(1000);
+
+    });
+
     </script>
 
 
@@ -154,7 +166,7 @@ showTime();
 
 
      <!--Witte onderrand-->
-     <div style="height: 80px">
+     <div style="height: 10vh">
         <ul class="myT1">
             <br>
             <br>
