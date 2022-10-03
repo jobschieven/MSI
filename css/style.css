@@ -398,7 +398,7 @@ body {
 	width:90%;
     background: #2ec4ff25;
 	padding:0 2%;
-	box-sizing: border-box;Thuis (Oude Binnenweg 48)
+	box-sizing: border-box;
     border-radius: 1em;
 }
 
@@ -413,7 +413,7 @@ body {
 #textleft{
 	float:left;
 	width:80%;
-	padding:0%;
+	padding:0% 1% 0% 0%;
 	box-sizing: border-box;
 }
 
@@ -427,13 +427,27 @@ body {
 #textleft60{
 	float:left;
 	width:60%;
-	padding:0%;
+	padding:0% 1% 0% 0%;
 	box-sizing: border-box;
 }
 
 #imageright40{
 	float:right;
 	width:40%;
+	padding:0%;
+	box-sizing: border-box;
+}
+
+#textright40{
+	float:right;
+	width:40%;
+	padding:0% 1% 0% 0%;
+	box-sizing: border-box;
+}
+
+#imageleft60{
+	float:left;
+	width:60%;
 	padding:0%;
 	box-sizing: border-box;
 }
@@ -463,8 +477,13 @@ body {
 }
 
 .titlecolumn {
-    flex: 50%;
-    padding: 5px;
+    flex: 70%;
+    padding: 1%;
+}
+
+.titlecolumn2 {
+    flex: 30%;
+    padding: 1%;
 }
 
 .myT1 {
@@ -487,6 +506,10 @@ body {
 	text-align:center;
 	font-size: 1.5vw;
     font-weight: bold;
+}
+
+ul{
+    padding-left: 2%;
 }
 
 .tekstvakVSC {
@@ -518,6 +541,12 @@ body {
 
 .imagefit{
     object-fit: scale-down;
+}
+
+.presentation{
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
 }
 
 /* Style buttons */
