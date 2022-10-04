@@ -531,7 +531,30 @@ ul{
     color: #ffffff50;
     font-size: 4vw;
     font-family: Orbitron;
-    letter-spacing: 7px;
+    letter-spacing: 0.5vw;
+}
+
+.weather {
+    position: relative;
+    top: 8vw;
+    left: 2%;
+    color: #ffffff50;
+    font-size: 1vw;
+    font-family: Orbitron;
+    letter-spacing: 0.5vw;
+    text-align: left;
+}
+
+.weather-scale {
+    position: relative;
+    top: 8vw;
+    left: 2%;
+    color: #ffffff50;
+    font-size: 6vw;
+    font-family: Orbitron;
+    letter-spacing: 0.5vw;
+    text-align: left;
+    
 }
 
 .imagescale{
