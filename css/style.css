@@ -25,7 +25,7 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    padding-left: 2vw;
 }
 
 .nav div.logo a {
@@ -56,7 +56,7 @@ body {
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
+    padding-right: 2vw;
 }
 
 .nav div.main_list ul li a {
@@ -87,7 +87,7 @@ body {
 }
 
 .nav {
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -529,14 +529,14 @@ ul{
     top: 23.5vw;
     left: 2%;
     color: #ffffff50;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: Orbitron;
     letter-spacing: 0.5vw;
 }
 
 .weather {
     position: relative;
-    top: 8vw;
+    top: 13vw;
     left: 2%;
     color: #ffffff50;
     font-size: 1vw;
@@ -547,10 +547,10 @@ ul{
 
 .weather-scale {
     position: relative;
-    top: 8vw;
+    top: 13vw;
     left: 2%;
     color: #ffffff50;
-    font-size: 6vw;
+    font-size: 3vw;
     font-family: Orbitron;
     letter-spacing: 0.5vw;
     text-align: left;
@@ -647,3 +647,4 @@ ul{
     opacity: 0;
     transition: opacity .5s;
  }
+
